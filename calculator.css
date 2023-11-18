@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+@font-face {
+  font-family: "digital-clock-font";
+  src: url("fontawesom/digital-7.ttf");
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 550px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 20px;
+  border: 3px solid;
+}
+
+.ACbutton {
+  background-color: rgb(219, 146, 50);
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin: 5px 15px;
+  box-shadow: 3px 3px 3px #898989;
+  background-image: linear-gradient(327deg, #c28028, transparent);
+  color: white;
+  border: none;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  margin: 5px 15px;
+  box-shadow: 3px 3px 3px #898989;
+  background-color: #818181;
+  background-image: linear-gradient(327deg, #0c0c0c, transparent);
+  color: white;
+  border: none;
+}
+
+.screen {
+  width: 100%;
+}
+
+#screenInput {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  height: 70px;
+  background-color: rgb(166 177 159);
+  background-image: repeating-linear-gradient(123deg, #c0c7bc, #dee5d921 102px);
+  border-radius: 10px;
+  font-family: digital-clock-font;
+  font-size: 40px;
+  font-weight: normal;
+  border: 3px solid;
+  color: black;
+}
+
+.finalresult {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.finalresult p {
+  font-family: digital-clock-font;
+    font-size: 25px;
+
+}
+
+.panel {
+  margin-top: 10px;
+}
+.buttonbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
